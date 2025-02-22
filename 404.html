@@ -1,0 +1,47 @@
+<?php
+Header("HTTP/1.1 404 Not Found");
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: rgb(46, 46, 46);
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            text-align: center;
+        }
+        
+        .error {
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+        }
+        
+        p {
+            font-size: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        a:hover {
+            color: rgb(194, 194, 194);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+</head>
+<body>
+    <div class="error">
+        <span>Error: 404 Not Found :(</span>
+        <p><a href="index.html">Back to Home</a></p>
+    </div>
+</body>
+</html>
