@@ -1,165 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 100%;
-}
-
-body {
-    background: linear-gradient(to bottom right, rgb(46, 46, 46), rgb(0, 0, 0));
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: cursive, sans-serif;
-    width: 100vw;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    background: #222222fb;
-    color: rgb(185, 185, 185);
-    text-align: center;
-    padding: 13px 0;
-    font-size: 1.125rem;
-    border-bottom: 2px solid gray;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    transition: all 0.4s;
-}
-
-header a:hover {
-    color: rgb(115, 195, 226);
-    font-size: 19.7px;
-}
-
-.content {
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
-
-.content span {
-    color: rgb(172, 172, 172);
-    width: 60%;
-}
-
-.content a {
-    text-decoration: none;
-    color: rgb(199, 199, 199);
-}
-
-.content .rules {
-    color: rgb(196, 35, 35);
-    padding: 70px 0;
-}
-
-.rhr {
-    scale: 0.8;
-}
-
-.footer {
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background: linear-gradient(rgb(0, 0, 0) 80%, rgb(0, 62, 112));
-    color: white;
-    gap: 20px;
-}
-
-.footer img {
-    height: 30px;
-}
-
-.footer a {
-    text-decoration: none;
-    color: rgb(212, 212, 212);
-}
-
-.footer a:hover {
-    color: rgb(115, 195, 226);
-}
-
-.footer hr {
-    height: 20px;
-    border-color: rgb(148, 148, 148);
-}
-
-
-
-
-
-/* Адаптация для планшетов */
-@media (max-width: 1024px) {
-    header {
-        font-size: 18px;
-        gap: 16px;
-    }
-    
-    .content {
-        font-size: 20px;
-    }
-    
-    .content span {
-        width: 80%;
-    }
-}
-
-/* Адаптация для мобильных устройств */
-@media (max-width: 768px) {
-    header {
-        font-size: 16px;
-        gap: 12px;
-    }
-    
-    .content {
-        font-size: 18px;
-    }
-    
-    .content span {
-        width: 90%;
-    }
-}
-</style>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opps</title>
 </head>
-<body>
-    <header>
+<body style="overflow-y: hidden;">
+    <header style="position: relative;">
         <a href="index.html">IronSky</a>
         <hr />
         <a href="aviaList.html">Авиация</a>
         <hr />
         <a href="rules.html">Правила чата</a>
     </header>
-    <div class="container">
-        <div">
+    <div class="container" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <div class="rrr">
             <a href="https://t.me/+_huMvv0PCrUyZGIy">
-                <img class="rhr" src="images/nude1.jpg" alt="oo">
+                <img class="rhr" src="images/11.gif" alt="" style="width: 68vw; border-radius: 10px;">
             </a>
         </div>
     </div>
