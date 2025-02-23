@@ -85,11 +85,12 @@ header a:hover {
 .content .rules {
     color: rgb(218, 33, 33);
     margin: 80px 0;
-    padding: 6vh 7vw;
+    padding: 5vh 4vw;
     font-size: calc(12px + 10 * (100vw / 1280));
     background-color: rgba(0, 0, 0, 0.068);
     border: 2px solid rgba(0, 0, 0, 0.322);
     border-radius: 10px;
+    width: 70vw;
 }
 
 .rrr {
