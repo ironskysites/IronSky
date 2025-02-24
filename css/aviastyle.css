@@ -22,6 +22,17 @@
     min-width: 300px;
 }
 
+@media (max-width: 768px) {
+    .card { 
+        box-shadow: none;
+    }
+
+    .card p {
+        padding-bottom: 20vh;
+    }
+}
+
+
 .card:hover {
     transform: scale(1.05);
 }
