@@ -31,21 +31,26 @@ body::before {
 
 header {
     position: fixed;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100vw;
+    height: 6.4vh;
     background: #222222fb;
     color: rgb(185, 185, 185);
     text-align: center;
     padding: 13px 0;
     font-size: calc(8px + 10 * (100vw / 1280));
-    border-bottom: 2px solid;
+    border-bottom: 0.2vh solid;
     border-image: linear-gradient(to right, transparent, rgb(189, 189, 189), transparent) 1;
     display: flex;
-    justify-content: center;
     gap: 24px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    z-index: 10;
+}
+
+header hr {
+    height: 2vh;
 }
 
 header a {
@@ -101,6 +106,7 @@ header a:hover {
 
 .ukraine {
     text-decoration: none;
+    font-size: calc(12px + 10 * (100vw / 1280));
 }
 
 .ukraine span {
