@@ -108,13 +108,19 @@ header a:hover {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin-top: 3vh;
+    margin: 13vh 0;
 }
 
 .content span {
     color: rgb(229, 229, 229);
-    width: 60%;
-    font-size: calc(8px + 10 * (100vw / 1280));
+    width: 70%;
+    font-size: max(4px, calc(10px + 10 * (100vw / 1280)));
+}
+
+@media (max-width: 400px) {
+    .content span {
+        width: 80vw;
+    }
 }
 
 .content a {
